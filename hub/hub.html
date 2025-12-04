@@ -1,9 +1,9 @@
 <head>
-    <title>Marinho's Network</title>
+    <title>Marinho's HUB</title>
     <meta charset="utf-8"> <!-- Formatação em UTF-8 -->
-    <meta name="description" content="Rede social em desenvolvimento, venha conhecer a Marinho's Network!"> <!-- Descrição do site -->
+    <meta name="description" content="Venha conhecer o Marinho's HUB, aqui estão as minhas habilidas e projetos desenvolvidos!"> <!-- Descrição do site -->
     <meta name="author" content="Yuri Marinho">
-    <meta name="keywords" content="Social, Network, Rede Social">
+    <meta name="keywords" content="Social, HUB, Rede Social">
 
     <link rel="stylesheet" href="../css/network.css">
 </head>
@@ -18,13 +18,15 @@
     .post1 {
         height: 200px;
         width: 280px;
-        margin: 120px 20px 250px 10px;
+        margin: 120px 20px 250px 40px;
     }
 
-    .post2 {
-        height: 200px;
-        width: 280px;
-        margin: 20px 20px 20px -300px;
+    .pfpyuri {
+        position: absolute;
+        border-radius: 300px;
+        height: 32px;
+        width: 33px;
+        margin: 130px 0px 0px 170px;
     }
 
     .yuri {
@@ -33,15 +35,21 @@
         width: 130px;
         background-color: #0000d1a8;
         font-family: arial;
-        margin: -440px 20px 20px 310px;
+        margin: -440px 20px 20px 340px;
 
     }
 
     .comentyuri {
         font-family: arial;
         font-size: 15px;
-        margin: -250px 20px 20px 310px;
+        margin: -250px 20px 20px 340px;
 
+    }
+
+    .post2 {
+        height: 200px;
+        width: 280px;
+        margin: -20px 20px 20px -300px;
     }
 
     .amaral {
@@ -50,14 +58,22 @@
         width: 150px;
         background-color: #0000d1a8;
         font-family: arial;
-        margin: 220px 20px 20px 310px;
+        margin: 220px 20px 20px 340px;
 
+    }
+
+    .pfpamaral {
+        position: absolute;
+        border-radius: 300px;
+        height: 32px;
+        width: 33px;
+        margin: 370px 0px 0px 190px;
     }
 
     .comentamaral {
         font-family: arial;
         font-size: 15px;
-        margin: 180px 20px 20px 310px;
+        margin: 180px 20px 20px 340px;
 
     }
 
@@ -65,11 +81,27 @@
         text-decoration: none;
         color: black;
     }
+
+    img {
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
 </style>
 
-<img src="../pfp/pfpyuri.JPG" alt="Foto de Perfil" class="post1">
 
-<img src="../pfp/pfpamaral.jpg" alt="Foto de Perfil" class="post2">
+<img src="../pfp/pfpyuri.JPG" alt="Foto de Perfil" class="post1" id="post1">
+
+<img src="../pfp/pfpamaral.jpg" alt="Foto de Perfil" class="post2" id="post2">
+
+<img src="../pfp/pfpyuri.JPG" alt="Foto de Perfil" class="pfpyuri" id="pfpyuri">
+
+<img  src="../pfp/pfpamaral.jpg" alt="Foto de Perfil" class="pfpamaral" id="pfpamaral">
 
 <h3 class="yuri"><a href="../profile/profileyuri.html">Yuri Marinho</a></h3>
 
@@ -77,6 +109,7 @@
 
 <h3 class="comentyuri">Formatura ensino fundamental<br>2024 - Rumo ao ensino médio</br><br><mark>#vidadeestudante</mark></br></h3>
 
-
 <h3 class="comentamaral">Com meu parça Paulista<br></br><mark>#lifeisgood</mark></h3>
 
+  <!-- Chamando o JavaScript externo -->
+  <script src="../js/script.js"></script>
