@@ -1,0 +1,77 @@
+    .post1 {
+        height: 200px;
+        width: 280px;
+        margin: 120px 20px 250px 40px;
+    }
+
+    .pfpyuri {
+        position: absolute;
+        border-radius: 300px;
+        height: 32px;
+        width: 33px;
+        margin: 130px 0px 0px 170px;
+    }
+
+    .yuri {
+        cursor: pointer;
+        text-align: center;
+        border-radius: 5px;
+        width: 130px;
+        background-color: #0000d1a8;
+        font-family: arial;
+        margin: -440px 20px 20px 340px;
+        
+    }
+
+    .comentyuri {
+        font-family: arial;
+        font-size: 15px;
+        margin: -250px 20px 20px 340px;
+
+    }
+
+    .post2 {
+        height: 200px;
+        width: 280px;
+        margin: -20px 20px 20px -300px;
+    }
+
+    .amaral {
+        text-align: center;
+        border-radius: 5px;
+        width: 150px;
+        background-color: #0000d1a8;
+        font-family: arial;
+        margin: 220px 20px 20px 340px;
+
+    }
+
+    .pfpamaral {
+        cursor: pointer;
+        position: absolute;
+        border-radius: 300px;
+        height: 32px;
+        width: 33px;
+        margin: 370px 0px 0px 170px;
+    }
+
+    .comentamaral {
+        font-family: arial;
+        font-size: 15px;
+        margin: 180px 20px 20px 340px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+        cursor: pointer;
+    }
+    
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
