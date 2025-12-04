@@ -1,5 +1,7 @@
     body {
-
+        transform: scale(1.5);
+        transform-origin: top left;
+        width: 66.66%;;
         background-color: #252424;
     }
 
@@ -117,4 +119,5 @@
     .imghover:hover {
         transform: scale(1.05);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
     }
