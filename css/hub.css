@@ -88,6 +88,35 @@
         margin: 300px 20px 20px 640px;
     }
 
+    .postmarinhohub {
+        cursor: pointer;
+        position: absolute;
+        transform: rotate(360deg);
+        height: 220px;
+        width:140px;
+        margin: 340px 20px 20px 620px;
+    }
+
+    .postmarinhohub:hover {
+        transform: scale(1.05);
+    }
+
+    .invitemarinhohub {
+        cursor: pointer;
+        border: solid 3px black;
+        border-radius: 10px;
+        text-align: center;
+        width: 160px;
+        color: #e07918f8;
+        background-color:#0450b3;
+        margin: 420px 20px 20px 750px;
+    }
+
+    .invitemarinhohub:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
     img {
         cursor: pointer;
     }

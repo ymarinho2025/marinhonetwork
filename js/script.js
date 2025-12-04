@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+  
+  // Marinho's HUB
+  document.querySelectorAll(".js-to-marinhohub").forEach(el => {
+    el.addEventListener("click", () => { location.href = "../marinhohub/hub.html"; });
+  });
+
   // Perfis
   document.querySelectorAll(".js-profile-yuri").forEach(el => {
     el.addEventListener("click", () => { location.href = "../profile/profileyuri.html"; });

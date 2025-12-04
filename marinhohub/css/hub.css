@@ -1,0 +1,125 @@
+    body {
+
+        background-color: #252424;
+    }
+
+    .head {
+        font-family: sans-serif;
+        color: #e07918f8;
+        background-color: #0450b3;
+        border: 5px solid black;
+    }
+
+    .ahead {
+        text-decoration: none;
+        color: #e07918f8;
+    }
+
+    .bhead {
+        text-decoration: none;
+        color: white;
+    }
+
+    .chead {
+        text-decoration: none;
+        color: black;
+    }
+
+    .mascote {
+        height: 150px;
+        width: 150px;
+        margin: -150px 20px 0px -10px;
+    }
+
+    .marinhohub {
+        background-color: yellow;
+        font-size: 39px;
+        width: 320px;
+        margin: 44px 130px;
+        text-align: center;
+    }
+
+    .marinhonetwork {
+        position: absolute;
+        font-size: 30px;
+        width: 320px;
+        margin: -30px 130px 0px 132px;
+        text-align: center;
+    }
+
+    .cursos {
+        width: 200px;
+        margin: -95px 20px 0px 470px;
+        text-align: center;
+    }
+
+    .certificado {
+        width: 200px;
+        margin: -45px 20px 0px 715px;
+        text-align: center;
+    }
+
+    .sobremim {
+        width: 200px;
+        margin: -45px 20px 0px 967px;
+        text-align: center;
+    }
+
+    .links {
+        width: 200px;
+        margin: 15px 20px 0px 470px;
+        text-align: center;
+    }
+    
+    .info {
+        font-family: Arial;
+        font-size: 20px;
+        color: white;
+        background-color: #e01818f8;
+        border: 5px solid #0450b3;
+
+    }
+
+    .bemvindo {
+        width: 230px;
+        margin: -45px 20px 0px 700px;
+        text-align: center;
+    }
+
+    .portfolio {
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        width: 230px;
+        margin: -56px 20px 0px 955px;
+    }
+
+    .texto {
+        width: 900px;
+        text-align: center;
+        background-color: white;
+        border: 5px solid black;
+        color: black;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 100%;
+        margin: 40px 0px 0px 135px;
+    }
+
+    .formatura {
+        height: 400px;
+        width: 650px;
+        margin: 0px 0px 0px 143px;
+        border: 10px solid black;
+        border-left: 125px solid #0450b3;
+        border-right: 125px solid #0450b3;
+    }
+
+    img {
+        cursor: pointer;
+    }
+    
+    .imghover:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
