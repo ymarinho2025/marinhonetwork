@@ -1,33 +1,23 @@
-// Aguarda o carregamento completo do DOM
-document.addEventListener("DOMContentLoaded", function () {
-  // Seleciona as imagens pelos seus IDs
-  const pfpyuri    = document.getElementById("pfpyuri");
-  const pfpamaral  = document.getElementById("pfpamaral");
-  const postyuri   = document.getElementById("post1"); // <- id post1
-  const postamaral = document.getElementById("post2"); // <- id post2
+document.addEventListener("DOMContentLoaded", () => {
+  // Perfis
+  document.querySelectorAll(".js-profile-yuri").forEach(el => {
+    el.addEventListener("click", () => { location.href = "../profile/profileyuri.html"; });
+  });
 
-  // Protege contra elementos ausentes
-  if (pfpyuri) {
-    pfpyuri.addEventListener("click", function () {
-      window.location.href = "../profile/profileyuri.html";
-    });
-  }
+  document.querySelectorAll(".js-profile-amaral").forEach(el => {
+    el.addEventListener("click", () => { location.href = "../profile/profileamaral.html"; });
+  });
 
-  if (postyuri) {
-    postyuri.addEventListener("click", function () {
-      window.location.href = "../posts/postsyuri.html";
-    });
-  }
+  // Posts
+  document.querySelectorAll(".js-post-yuri").forEach(el => {
+    el.addEventListener("click", () => { location.href = "../posts/postsyuri.html"; });
+  });
 
-  if (pfpamaral) {
-    pfpamaral.addEventListener("click", function () {
-      window.location.href = "../profile/profileamaral.html";
-    });
-  }
+  document.querySelectorAll(".js-post-amaral").forEach(el => {
+    el.addEventListener("click", () => { location.href = "../posts/postsamaral.html"; });
+  });
 
-  if (postamaral) {
-    postamaral.addEventListener("click", function () {
-      window.location.href = "../posts/postsamaral.html";
-    });
-  }
+  document.querySelectorAll(".js-post-troll").forEach(el => {
+    el.addEventListener("click", () => { location.href = "rickroll.html"; });
+  });
 });

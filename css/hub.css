@@ -1,4 +1,5 @@
-    .post1 {
+    .photoyuri1 {
+        position: absolute;
         height: 200px;
         width: 280px;
         margin: 120px 20px 250px 40px;
@@ -9,40 +10,52 @@
         border-radius: 300px;
         height: 32px;
         width: 33px;
-        margin: 130px 0px 0px 170px;
+        margin: 125px 0px 0px 490px;
     }
 
     .yuri {
+        position: absolute;
         cursor: pointer;
         text-align: center;
         border-radius: 5px;
         width: 130px;
         background-color: #0000d1a8;
         font-family: arial;
-        margin: -440px 20px 20px 340px;
+        margin: 130px 20px 20px 340px;
         
     }
 
     .comentyuri {
+        position: absolute;
         font-family: arial;
         font-size: 15px;
-        margin: -250px 20px 20px 340px;
+        margin: 170px 20px 20px 340px;
 
     }
 
-    .post2 {
+    .photoamaral1 {
+        position: absolute;
         height: 200px;
         width: 280px;
-        margin: -20px 20px 20px -300px;
+        margin: 340px 20px 20px 40px;
     }
 
     .amaral {
+        position: absolute;
         text-align: center;
         border-radius: 5px;
         width: 150px;
         background-color: #0000d1a8;
         font-family: arial;
-        margin: 220px 20px 20px 340px;
+        margin: 350px 20px 20px 340px;
+
+    }
+
+    .comentamaral {
+        position: absolute;
+        font-family: arial;
+        font-size: 15px;
+        margin: 385px 20px 20px 340px;
 
     }
 
@@ -52,14 +65,7 @@
         border-radius: 300px;
         height: 32px;
         width: 33px;
-        margin: 370px 0px 0px 170px;
-    }
-
-    .comentamaral {
-        font-family: arial;
-        font-size: 15px;
-        margin: 180px 20px 20px 340px;
-
+        margin: 345px 0px 0px 510px;
     }
 
     a {
@@ -67,11 +73,26 @@
         color: black;
     }
 
+    .posttroll {
+        position: absolute;
+        transform: rotate(270deg);
+        height: 260px;
+        width:160px;
+        margin: 90px 20px 20px 690px;
+    }
+
+    .texttroll {
+        position: absolute;
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        margin: 300px 20px 20px 640px;
+    }
+
     img {
         cursor: pointer;
     }
     
-    img:hover {
+    .imghover:hover {
         transform: scale(1.05);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
