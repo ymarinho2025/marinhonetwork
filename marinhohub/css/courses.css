@@ -1,0 +1,27 @@
+    .comp {
+        font-family: arial;
+        font-weight: bold;
+        color: 0450b3;
+    }
+
+    .about {
+        text-align: center;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255); 
+        font-size: 30px;
+        width: 1020px;
+        height: 190px;
+        color: rgb(0, 0, 0);
+        margin: -45px 0px 0px 0px;
+    }
+
+    .anhanguera {
+        text-align: center;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);   
+        font-family: arial; 
+        font-size: 27px;
+        width: 1020px;
+        color: #ff7b00;
+        margin: 50px 0px 0px 0px;
+    }
