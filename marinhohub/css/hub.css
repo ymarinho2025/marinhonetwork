@@ -25,17 +25,11 @@
         color: black;
     }
 
-    .mascote {
-        height: 150px;
-        width: 150px;
-        margin: -150px 20px 0px -10px;
-    }
-
     .marinhohub {
         background-color: yellow;
         font-size: 39px;
         width: 320px;
-        margin: 44px 130px;
+        margin: 44px 0px;
         text-align: center;
     }
 
@@ -43,31 +37,31 @@
         position: absolute;
         font-size: 30px;
         width: 320px;
-        margin: -30px 130px 0px 132px;
+        margin: -30px 130px 0px 0px;
         text-align: center;
     }
 
     .cursos {
         width: 200px;
-        margin: -95px 20px 0px 470px;
+        margin: -95px 20px 0px 350px;
         text-align: center;
     }
 
     .certificado {
         width: 200px;
-        margin: -45px 20px 0px 715px;
+        margin: -45px 20px 0px 580px;
         text-align: center;
     }
 
     .sobremim {
         width: 200px;
-        margin: -45px 20px 0px 967px;
+        margin: -45px 20px 0px 800px;
         text-align: center;
     }
 
     .links {
         width: 200px;
-        margin: 15px 20px 0px 470px;
+        margin: 15px 20px 0px 350px;
         text-align: center;
     }
     
@@ -81,17 +75,18 @@
     }
 
     .bemvindo {
+        font-size: 19px;
         width: 230px;
-        margin: -45px 20px 0px 700px;
+        margin: -45px 20px 0px 570px;
         text-align: center;
     }
 
     .portfolio {
         font-family: Arial;
-        font-size: 20px;
+        font-size: 19px;
         text-align: center;
-        width: 230px;
-        margin: -56px 20px 0px 955px;
+        width: 150px;
+        margin: -53px 20px 0px 830px;
     }
 
     .texto {
@@ -103,13 +98,13 @@
         font-family: arial;
         font-weight: bold;
         font-size: 100%;
-        margin: 40px 0px 0px 135px;
+        margin: 40px 0px 0px 40px;
     }
 
     .formatura {
         height: 400px;
         width: 650px;
-        margin: 0px 0px 0px 143px;
+        margin: 0px 0px 0px 45px;
         border: 10px solid black;
         border-left: 125px solid #0450b3;
         border-right: 125px solid #0450b3;
