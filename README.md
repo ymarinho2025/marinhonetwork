@@ -1,3 +1,4 @@
-Marinho's Network v2 -
-114 Commits antes da reestruturação de site.
-Esse repositorio foi criado com as pastas já organizadas, o WebSite continua em desenvolvimento...
+Marinho's Network v2 -  
+114 Commits antes da reestruturação de site.  
+Esse repositorio foi criado com as pastas já organizadas, o WebSite continua em desenvolvimento...  
+
