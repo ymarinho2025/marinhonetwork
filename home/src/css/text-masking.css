@@ -1,0 +1,26 @@
+.text-masking {
+    position: fixed;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 180px;
+    text-align: center;
+
+    /* A imagem aparece EXATAMENTE onde o texto está */
+    background-image: url("../../../assets/bg/hacking-bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* evita repetição */
+    background-position: center center;
+    /* centraliza na área do texto */
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text-masking:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px black);
+}

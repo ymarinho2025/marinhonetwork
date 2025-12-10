@@ -1,0 +1,213 @@
+    body {
+        background-color: white;
+    }
+
+    .head {
+        font-family: sans-serif;
+        color: #e07918f8;
+        background-color: #0450b3;
+        border: 5px solid black;
+    }
+
+    .ahead {
+        text-decoration: none;
+        color: #e07918f8;
+    }
+
+    .bhead {
+        text-decoration: none;
+        color: white;
+    }
+
+    .chead {
+        text-decoration: none;
+        color: black;
+    }
+
+    .marinhohub {
+        background-color: yellow;
+        font-size: 39px;
+        width: 320px;
+        margin: 44px 0px;
+        text-align: center;
+    }
+
+    .marinhonetwork {
+        position: absolute;
+        font-size: 30px;
+        width: 320px;
+        margin: -30px 130px 0px 0px;
+        text-align: center;
+    }
+
+    .cursos {
+        width: 200px;
+        margin: -92px 20px 0px 350px;
+        text-align: center;
+    }
+
+    .certificado {
+        width: 200px;
+        margin: -45px 20px 0px 580px;
+        text-align: center;
+    }
+
+    .sobremim {
+        width: 200px;
+        margin: 17px 20px 0px 580px;
+        text-align: center;
+    }
+
+    .links {
+        width: 200px;
+        margin: -47px 20px 0px 350px;
+        text-align: center;
+    }
+
+    .info {
+        font-family: Arial;
+        font-size: 20px;
+        color: white;
+        background-color: #e01818f8;
+        border: 5px solid #0450b3;
+
+    }
+
+    .texto {
+        width: 700px;
+        text-align: center;
+        background-color: white;
+        border: 5px solid black;
+        color: black;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 90%;
+        margin: 40px 0px 0px 35px;
+    }
+
+    .formatura {
+        height: 300px;
+        width: 450px;
+        margin: 0px 0px 0px 40px;
+        border: 10px solid black;
+        border-left: 125px solid #0450b3;
+        border-right: 125px solid #0450b3;
+    }
+
+    img {
+        cursor: pointer;
+    }
+
+    .imghover:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .page-scale {
+        --scale: 1;
+        transform: scale(var(--scale));
+        transform-origin: top center;
+        width: calc(0% / var(--scale));
+        /* compensa o scale pra não “cortar” */
+    }
+
+@media (max-width: 1279px)  { .page-scale { --scale: 0.95; } }
+@media (min-width: 500px)   { .page-scale { --scale: 0.48; } }
+@media (min-width: 600px)   { .page-scale { --scale: 0.58; } }
+@media (min-width: 720px)   { .page-scale { --scale: 0.70; } }
+@media (min-width: 830px)   { .page-scale { --scale: 1.03; } }
+@media (min-width: 930px)   { .page-scale { --scale: 1.16; } }
+@media (min-width: 1024px)  { .page-scale { --scale: 1.27; } } 
+@media (min-width: 1100px)  { .page-scale { --scale: 1.37; } }
+@media (min-width: 1200px)  { .page-scale { --scale: 1.47; } }
+@media (min-width: 1300px)  { .page-scale { --scale: 1.59; } }
+@media (min-width: 1440px)  { .page-scale { --scale: 1.77; } }
+@media (min-width: 1600px)  { .page-scale { --scale: 1.98; } }
+@media (min-width: 1680px)  { .page-scale { --scale: 2.07; } }
+@media (min-width: 1800px)  { .page-scale { --scale: 2.22; } }
+@media (min-width: 1920px)  { .page-scale { --scale: 2.35; } }
+@media (min-width: 2560px)  { .page-scale { --scale: 3.15; } }
+
+@media (min-width: 500px) {
+    .formatura {
+        margin-bottom: -250px;
+    }
+}
+
+@media (min-width: 600px) {
+    .formatura {
+        margin-bottom: -190px;
+    }
+}
+
+@media (min-width: 730px) {
+    .formatura {
+        margin-bottom: -110px;
+    }
+}
+
+@media (min-width: 830px) {
+    .formatura {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 930px) {
+    .formatura {
+        margin-bottom: 130px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .formatura {
+        margin-bottom: 240px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .formatura {
+        margin-bottom: 300px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .formatura {
+        margin-bottom: 360px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .formatura {
+        margin-bottom: 450px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .formatura {
+        margin-bottom: 560px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .formatura {
+        margin-bottom: 620px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .formatura {
+        margin-bottom: 700px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .formatura {
+        margin-bottom: 760px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .formatura {
+        margin-bottom: 1220px;
+    }
+}
