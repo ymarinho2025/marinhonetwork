@@ -1,0 +1,70 @@
+/* ============================= */
+/* Base da página (sem wrapper)  */
+/* ============================= */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   /* evita barra horizontal */
+  overflow-y: auto;     /* permite rolagem */
+  box-sizing: border-box;
+}
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+
+  /*Zoom global sem wrapper*/
+  --scale: 1;
+  zoom: var(--scale);
+}
+
+/*Cabeçalhos fixo*/
+.top {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+.yuribookup {
+  margin: 0 auto;
+  text-align: left;
+  font-size: 60px;
+  width: 89%;
+  background-color: #0d0dcc;
+  z-index: 1000;
+}
+
+.yuribookdown {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  width: 89%;
+  background-color: #0000d1a8;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .yuribookup {
+    font-size: 35px;
+    text-align: center;
+  }
+  .yuribookdown {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .card-group {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-group {
+    width: 40%;
+  }
+}

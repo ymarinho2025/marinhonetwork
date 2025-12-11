@@ -1,0 +1,90 @@
+/* ============================= */
+/* Base da página (sem wrapper)  */
+/* ============================= */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   /* evita barra horizontal */
+  overflow-y: auto;     /* permite rolagem */
+  box-sizing: border-box;
+}
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+
+  /*Zoom global sem wrapper*/
+  --scale: 1;
+  zoom: var(--scale);
+}
+
+/*Cabeçalhos fixo*/
+.top {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+.yuribookup {
+  margin: -50 5;
+  text-align: left;
+  font-size: 60px;
+  width: 770px;
+  background-color: #0d0dcc;
+  z-index: 1000;
+}
+
+.yuribookdown {
+  margin: 50 5;
+  margin-bottom: -10px;
+  text-align: center;
+  font-size: 22px;
+  width: 770px;
+  background-color: #0000d1a8;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+/* ========================================= */
+/* Breakpoints: alteram a variável --scale    */
+/* ========================================= */
+
+/* muito pequenos */
+@media (max-width: 499px)  { body { --scale: 0.90; } }
+
+/* celulares */
+@media (min-width: 500px)  { body { --scale: 0.64; } }
+
+/* celulares grandes */
+@media (min-width: 600px)  { body { --scale: 0.77; } }
+
+/* tablets pequenos */
+@media (min-width: 720px)  { body { --scale: 0.925; } }
+
+/* tablets médios */
+@media (min-width: 830px)  { body { --scale: 1.065; } }
+
+/* tablets grandes */
+@media (min-width: 930px)  { body { --scale: 1.195; } }
+
+/* notebook padrão */
+@media (min-width: 1024px) { body { --scale: 1.315; } }
+
+/* monitores maiores */
+@media (min-width: 1100px) { body { --scale: 1.415; } }
+@media (min-width: 1200px) { body { --scale: 1.545; } }
+@media (min-width: 1300px) { body { --scale: 1.675; } }
+@media (min-width: 1440px) { body { --scale: 1.84; } }
+@media (min-width: 1600px) { body { --scale: 2.04; } }
+@media (min-width: 1680px) { body { --scale: 2.13; } }
+@media (min-width: 1800px) { body { --scale: 2.285; } }
+@media (min-width: 1920px) { body { --scale: 2.435; } }
+@media (min-width: 2560px) { body { --scale: 3.26; } }
+
+/* Espaço para o conteúdo não ficar sob os cabeçalhos fixos */
+main, .conteudo, body {
+  padding-top: 50px; /* ajuste conforme a altura real do seu header */
+}

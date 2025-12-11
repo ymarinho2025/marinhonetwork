@@ -1,0 +1,72 @@
+    .profilepicture {
+        display: block;
+        height: 200px;
+        width: 280px;
+        margin: 30px 20px 20px 10px ;
+      border-radius: 15px; /* opcional: cantos arredondados */
+  object-fit: cover; /* mantém proporção da imagem */
+
+    }    
+
+    .info {
+        font-size: 20px;
+        text-align: center;
+        width: 200px;
+        background-color: #0000d1a8;
+        border-radius: 15px;
+        margin: -210px 0px 0px 300px;
+  }
+
+  .aboutme {
+    font-size: 15px;
+    font-family: arial;
+    margin: 5px 0px 0px 310px;
+
+  }
+
+  .label {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: #0000d1a8;
+    border-radius: 2px;
+  }
+
+      .info2 {
+        font-size: 20px;
+        text-align: center;
+        width: 232px;
+        background-color: #0000d1a8;
+        border-radius: 15px;
+        margin: -95px 0px 0px 515px;
+  }
+    .aboutme2 {
+    font-size: 12px;
+    font-family: arial;
+    margin: 5px 0px 0px 520px;
+
+  }
+
+  .label2 {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    background-color: #0000d1a8;
+    border-radius: 2px;
+  }
+    .social {
+        font-size: 12px;
+        font-family: arial;
+        margin: 130px 0px 0px 20px;
+        text-align: left;
+    }
+
+    .friends {
+        font-size: 12px;
+        font-family: arial;
+        margin: -100px 0px 0px 312px;
+    }
+
+    a {
+      text-decoration: none;;
+    }
