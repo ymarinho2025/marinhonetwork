@@ -1,0 +1,62 @@
+/* NEON ROXO – MICROLINS (classe .neonText) */
+.curso1.neon-blue {
+  border-color: #0077ff;
+  /* Azuk */
+  border-radius: 5px;
+  box-shadow:
+    0 0 5px #0077ff,
+    0 0 15px #0077ff,
+    0 0 25px #0077ff,
+    0 0 35px #0077ff;
+  animation: neonRoxo 1.5s ease-in-out infinite alternate;
+}
+
+/* NEON LARANJA– ANHANGUERA (classe .neon-orange) */
+.curso2.neon-orange {
+  border-color: #ff7a00;
+  /* laranja */
+  border-radius: 5px;
+  box-shadow:
+    0 0 5px #ff7a00,
+    0 0 15px #ff7a00,
+    0 0 25px #ff7a00,
+    0 0 35px #ff7a00;
+  animation: neonLaranja 1.5s ease-in-out infinite alternate;
+}
+
+/* ANIMAÇÕES DAS BORDAS (só mexem no brilho) */
+@keyframes neonRoxo {
+  0% {
+    box-shadow:
+      0 0 2px #0077ff,
+      0 0 8px #0077ff,
+      0 0 10px #0077ff,
+      0 0 20px #0077ff;
+  }
+
+  100% {
+    box-shadow:
+      0 0 5px #0077ff,
+      0 0 10px #0077ff,
+      0 0 15px #0077ff,
+      0 0 20px #0077ff;
+  }
+}
+
+@keyframes neonLaranja {
+  0% {
+    box-shadow:
+      0 0 2px #ff7a00,
+      0 0 8px #ff7a00,
+      0 0 10px #ff7a00,
+      0 0 20px #ff7a00;
+  }
+
+  100% {
+    box-shadow:
+      0 0 5px #ff7a00,
+      0 0 10px #ff7a00,
+      0 0 15px #ff7a00,
+      0 0 20px #ff7a00;
+  }
+}
